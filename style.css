@@ -1,56 +1,61 @@
-body{
+body {
     background-color: black;
     margin: 0;
 }
-.container{
+
+.container {
     background-color: lightgray;
-    width:90%;
-    margin:auto;
-    
+    width: 90%;
+    margin: auto;
+
 }
 
-div.feedContainer{
+div.feedContainer {
     width: 600px;
     margin: auto;
-   
+
 }
-.header{
+
+.header {
     background-color: white;
     padding: 10px;
 }
 
-.header h1{
+.header h1 {
     margin: 0;
 }
 
-.post{
+.post {
     background-color: white;
     margin-top: 20px;
-    
-  
+
+
 }
-.text{
+
+.text {
     align-self: center;
-   
+
 }
 
-div.post h2, div.post p, div.postHeader span{
-    padding:10px;
+div.post h2,
+div.post p,
+div.postHeader span {
+    padding: 10px;
 }
 
-div.post img{
+div.post img {
     width: 100%;
 }
 
 
-div.postHeader{
-   /* background-color: blue; */
-   display: flex;
-   justify-content: space-between;
+div.postHeader {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
 }
 
-div.postHeader span{
+div.postHeader span {
     display: block;
     margin-top: 20px;
-    color:gray;
+    color: gray;
 }
